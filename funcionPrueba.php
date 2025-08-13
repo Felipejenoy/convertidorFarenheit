@@ -11,9 +11,17 @@
             $a = "hola mundo";
             return $a;
         }
+        
 
+        function sumar($a,$b):int{
+            $resultado = $a+$b;
+            return $resultado;
+        }
         echo holaMundo();
+        echo "<br>";
+        echo sumar(2,2);
     ?>
+    <h1>Esta es una función</h1>
     
 </body>
 </html>
