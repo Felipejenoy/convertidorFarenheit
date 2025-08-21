@@ -9,7 +9,10 @@
 
     la fecha de hoy es= "<?php echo date("Y,m,d");
     echo "<br>";
-    echo date("l")
+    echo date("l");
+    $ra=mktime(12,22,3);
+    echo "<br>";
+    echo "la hora es :".$ra;
     ?>"
     
 </body>
